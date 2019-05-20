@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd425945-7a1f-435d-b6f9-8a6c5ba678f2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_19_111416_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_19_111416_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Review.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="243">
-      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="115" column="8" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
-              <folding>
-                <element signature="e#40#83#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReviewRequest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/ReviewRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -53,65 +57,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExceptionTrait.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php">
+      <file leaf-file-name="2019_05_19_111813_create_reviews_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_19_111813_create_reviews_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#6#86#0#PHP" expanded="true" />
-                <element signature="e#113#178#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2019_05_19_111416_create_products_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_19_111416_create_products_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="171">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Response.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
+      <file leaf-file-name="Review.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-456">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="190">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <file leaf-file-name="ReviewController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/ProductFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="432">
+              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+              <folding>
+                <element signature="e#40#76#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +110,6 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_19_111813_create_reviews_table.php" />
         <option value="$PROJECT_DIR$/database/factories/ReviewFactory.php" />
-        <option value="$PROJECT_DIR$/app/Model/Review.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Product/ProductResource.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Product/ProductCollection.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/ReviewResource.php" />
@@ -138,7 +117,6 @@
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/config/auth.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ProductRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" />
         <option value="$PROJECT_DIR$/app/Model/Product.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_19_111416_create_products_table.php" />
@@ -147,6 +125,9 @@
         <option value="$PROJECT_DIR$/app/Exceptions/ExceptionTrait.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/ProductNotBelongsToUser.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/app/Model/Review.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/ReviewRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" />
       </list>
     </option>
   </component>
@@ -287,7 +268,20 @@
               <item name="e-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="e-api" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="e-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="e-api" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="e-api" type="b2602c69:ProjectViewProjectNode" />
@@ -369,12 +363,12 @@
       <workItem from="1558263597073" duration="7286000" />
       <workItem from="1558275610558" duration="5927000" />
       <workItem from="1558284567825" duration="3301000" />
-      <workItem from="1558295171374" duration="17839000" />
+      <workItem from="1558295171374" duration="21382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34353000" />
+    <option name="totallyTimeSpent" value="37896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,7 +390,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info id="npm" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32905984" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16174497" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.16174497" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -422,9 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="e#40#83#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,7 +438,7 @@
         <state relative-caret-position="589">
           <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
           <folding>
-            <element signature="e#40#78#0#PHP" expanded="true" />
+            <element signature="e#40#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -463,9 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#83#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,20 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_19_111813_create_reviews_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Resources/Json/JsonResource.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1976">
@@ -678,16 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#40#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -723,24 +687,10 @@
     <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-456">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -768,12 +718,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_19_111813_create_reviews_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="115" column="8" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ReviewRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
           <folding>
-            <element signature="e#40#83#0#PHP" expanded="true" />
+            <element signature="e#40#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
