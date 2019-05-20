@@ -16,6 +16,8 @@ class ProductResource extends JsonResource
     {
         return array(array(
            'name'=>$this->name,
+            'id' =>$this->id,
+            'user_id' => $this->user_id,
             'description'=>$this->detail,
             'price'=>$this->price,
             'totalPrice'=>round(( 1 - ($this->discount/100)) * $this->price,2),
